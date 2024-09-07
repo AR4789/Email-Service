@@ -1,0 +1,111 @@
+body {
+  background: url('https://img.freepik.com/premium-photo/modern-technology-email-background_693425-10221.jpg?w=1380') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.App {
+  text-align: center;
+  padding: 50px;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.hero img {
+  width: 15%;
+  height: auto;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+form {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+  border-color: #ff6f61;
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 111, 97, 0.5);
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+}
+
+button {
+  padding: 15px 25px;
+  background-color: #4125dc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+button:hover {
+  background-color: #de8d6f;
+}
+
+
+.suggestions {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ddd;
+  background-color: rgb(221, 124, 245);
+  position: absolute;
+  width: calc(100% - 2px);
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.suggestions li {
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.suggestions li:hover {
+  background-color: #f0f0f0;
+}
